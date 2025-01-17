@@ -3,7 +3,7 @@ import math
 import os
 from datetime import datetime
 import matplotlib.pyplot as plt
-import hello_world 
+import hello_world
 
 # Generate a random integer between 0 and 100
 random_number = random.randint(0, 100)
@@ -46,4 +46,5 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
+# use local hello_world script
 hello_world.hello_world()
